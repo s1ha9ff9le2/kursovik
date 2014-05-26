@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		522CE85D1933B09000537E58 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522CE85C1933B09000537E58 /* Storyboard.storyboard */; };
 		522CE8601933B1CF00537E58 /* LOLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522CE85F1933B1CF00537E58 /* LOLViewController.m */; };
+		522CE8631933B5B000537E58 /* NiggaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522CE8621933B5B000537E58 /* NiggaViewController.m */; };
 		84A4E7C31933AEA3003460D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A4E7C21933AEA3003460D1 /* Foundation.framework */; };
 		84A4E7C51933AEA3003460D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A4E7C41933AEA3003460D1 /* CoreGraphics.framework */; };
 		84A4E7C71933AEA3003460D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A4E7C61933AEA3003460D1 /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 		522CE85C1933B09000537E58 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
 		522CE85E1933B1CF00537E58 /* LOLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOLViewController.h; sourceTree = "<group>"; };
 		522CE85F1933B1CF00537E58 /* LOLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOLViewController.m; sourceTree = "<group>"; };
+		522CE8611933B5B000537E58 /* NiggaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NiggaViewController.h; sourceTree = "<group>"; };
+		522CE8621933B5B000537E58 /* NiggaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NiggaViewController.m; sourceTree = "<group>"; };
 		84A4E7BF1933AEA3003460D1 /* Hotel project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hotel project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A4E7C21933AEA3003460D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84A4E7C41933AEA3003460D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				522CE85E1933B1CF00537E58 /* LOLViewController.h */,
 				522CE85F1933B1CF00537E58 /* LOLViewController.m */,
 				522CE85C1933B09000537E58 /* Storyboard.storyboard */,
+				522CE8611933B5B000537E58 /* NiggaViewController.h */,
+				522CE8621933B5B000537E58 /* NiggaViewController.m */,
 				84A4E7D41933AEA4003460D1 /* Images.xcassets */,
 				84A4E7C91933AEA3003460D1 /* Supporting Files */,
 			);
@@ -249,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84A4E7D31933AEA4003460D1 /* AppDelegate.m in Sources */,
+				522CE8631933B5B000537E58 /* NiggaViewController.m in Sources */,
 				522CE8601933B1CF00537E58 /* LOLViewController.m in Sources */,
 				84A4E7CF1933AEA3003460D1 /* main.m in Sources */,
 			);
